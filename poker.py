@@ -14,9 +14,6 @@ def flop_turn_river(deck):
 	river = [flop_turn_river[4]]
 	return flop, turn, river
 	
-def hand_simulator():
-	iterations = int(input("How many iterations?: "))
-	
 def dealer():
 	deck, suits = createDeck()
 	my_hand = [deck.pop(0), deck.pop(0)]
