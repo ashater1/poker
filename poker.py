@@ -89,7 +89,8 @@ def flop_turn_river(deck):
 	return flop, turn, river
 	
 def dealer():
-	iterations = 750000
+	iterations = int(input("How many hands should we deal?: "))
+	
 	hand_types = ["Royal Flush", "Straight Flush", "Four of a Kind",
 				  "Full House", "Flush", "Straight", "Three of a Kind", 
 				  "Two Pair", "One Pair", "High Card"]
